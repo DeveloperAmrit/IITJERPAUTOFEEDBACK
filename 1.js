@@ -1,7 +1,7 @@
-function autoFill(){
 
-    let captcha = "ym27Gz";                // change this captcha to your captcha
-    
+let captcha = prompt("Enter your captcha")
+
+function autoFill(){
     let a = Array.from(document.getElementsByClassName("form-check-input"));
     let c = document.getElementsByClassName("form-control")[0];
     let j = 0;
