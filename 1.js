@@ -1,5 +1,4 @@
 function autoFill(){
-    console.log("TRIGGERED");
     let captcha = "ym27Gz";
     let a = Array.from(document.getElementsByClassName("form-check-input"));
     let c = document.getElementsByClassName("form-control")[0];
